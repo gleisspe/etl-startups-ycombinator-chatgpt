@@ -8,7 +8,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
 # Buscando meu arquivo que escolhi na base de dados do kaggle.
-# No caso escolhi uma base de dados sobre startups porque trabalhei com elas ano passado como analista de inovação.
+# No caso escolhi uma base de dados sobre startups porque trabalhei com elas ano passado como analista de inovação dentro do ecossistema de inovação.
 try:
     df_startups = pd.read_csv('Startups.csv')
 except FileNotFoundError:
